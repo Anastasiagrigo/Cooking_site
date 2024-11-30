@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <span class="button_togglemenu">
+            <span class="button_togglemenu-span"></span>
+            <span class="button_togglemenu-span"></span>
+            <span class="button_togglemenu-span"></span>
+        </span>
+        <img class="nav-logo" src="images/cooking-classy-logo.svg" alt="">
+
+        <ul class="nav_ul">
+            <li class="nav_li">
+                <a onclick="myFunction()" class="nav_ul-li" href="javascript:void(0);">Recipes</a>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="">Breakfast</a>
+                    <a href="">Lunch</a>
+                    <a href="">Dinner</a>
+                    <a href="">Dessert</a>
+                    <a href="">Drinks</a>
+                    <a href="index2.html">Thanksgiving special</a>
+                </div>
+            </li>
+            <li><a class="nav_ul-li" href="">Ingredients</a></li>
+            <li><a class="nav_ul-li" href="">Free from</a></li>
+            <li><a class="nav_ul-li" href="">About</a></li>
+        </ul>
+
+        <div class="nav_input_search">
+            <img class="search-icon" src="images/search_icon.png" alt="">
+            <input class="nav_input_search-text" type="text" placeholder="Search for recipes...">
+        </div>
+    </nav>
+
+
+    <section class="expert_advice">
+        <h2 class="expert_advice-title">Expert Advice</h2>
+        <span class="expert_advice-span"></span>
+        <div class="expert_advice_recipes">
+            <div class="expert_advice_pecan">
+                <img class="expert_advice-img" src="images/expert_advice_pecan_slice.webp" alt="">
+                <h4 class="expert_advice-subtitle">3 Ways to Toast Pecans So You Never Burn Them Again</h4>
+                <p class="expert_advice-info">Before mixing pecans into pie—or anything else—toast them for maximum crunch and the richest flavor.</p>
+            </div>
+            <div class="expert_advice_turkey">
+                <img class="expert_advice-img" src="images/expert_advice_turkey_thanksgiving.webp" alt="">
+                <h4 class="expert_advice-subtitle">How to Cook a Turkey for Thanksgiving</h4>
+                <p class="expert_advice-info">You'll never need to look up a holiday turkey recipe ever again</p>
+            </div>
+        </div>
+        <div class="expert_advice_recipes">
+            <div class="expert_advice_pecan">
+                <img class="expert_advice-img" src="images/expert_advice_coconut.webp" alt="">
+                <h4 class="expert_advice-subtitle">How to Choose Between Coconut Flakes, Chips, Shreds, and More</h4>
+                <p class="expert_advice-info">Plus, what’s the deal with desiccated coconut?</p>
+            </div>
+            <div class="expert_advice_turkey">
+                <img class="expert_advice-img" src="images/expert_advice_mussels.webp" alt="">
+                <h4 class="expert_advice-subtitle">How to Clean and Prep Mussels</h4>
+                <p class="expert_advice-info">Before cooking mussels, rinse them good.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="top_recipes">
+        <h4 class="top_recipes-title">Top recipes</h4>
+        <span class="expert_advice-span"></span>
+    
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="top_recipes-img" src="images/creme_brulee.webp" alt="Image 1">
+                    <a class="top_recipes-link" href="">Colossal Crème Brûlée</a>
+                </div>
+                <div class="swiper-slide">
+                    <img class="top_recipes-img" src="images/grilled-salmon.webp" alt="">
+                    <a class="top_recipes-link" href="">Easy Grilled Salmon in Foil With Lemon-Garlic-Herb Butter</a>
+                </div>
+                <div class="swiper-slide">
+                    <img class="top_recipes-img" src="images/mug-brownies.webp" alt="">
+                    <a class="top_recipes-link" href="">Molten Double Chocolate Mug Cake</a>
+                </div>
+                <div class="swiper-slide">
+                    <img class="top_recipes-img" src="images/spinach_salad.webp" alt="">
+                    <a class="top_recipes-link" href="">Spinach Salad With Feta Dressing</a>
+                </div>
+                <div class="swiper-slide">
+                    <img class="top_recipes-img" src="images/sticky-rice-mango.webp" alt="">
+                    <a class="top_recipes-link" href="">Sticky Rice With Mango</a>
+                </div>
+                <div class="swiper-slide">
+                    <img class="top_recipes-img" src="images/pink_lemonade.webp" alt="">
+                    <a class="top_recipes-link" href="">Pink lemonade for summer</a>
+                </div>
+                <div class="swiper-slide">
+                    <img class="top_recipes-img" src="images/Mini-hotdogs.webp" alt="">
+                    <a class="top_recipes-link" href="">Classic Pigs in a Blanket</a>
+                </div>
+            </div>
+    
+            <img class="swiper-button-prev" src="images/arrow_prev.svg" alt="">
+            <img class="swiper-button-next" src="images/arrow_next.png" alt="">
+
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
